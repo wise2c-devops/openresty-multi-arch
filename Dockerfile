@@ -8,7 +8,7 @@ ENV \
 RUN apt-get update && apt-get install --yes --no-install-recommends build-essential wget libreadline-dev libncurses5-dev libpcre3-dev libssl-dev luarocks libgeoip-dev perl zlib1g-dev
 
 RUN \
-  wget https://openresty.org/download/openresty-1.17.8.2.tar.gz && \
+  wget https://openresty.org/download/openresty-1.15.8.2.tar.gz && \
   tar -xzvf openresty-*.tar.gz && \
   rm -f openresty-*.tar.gz && \
   cd openresty-* && \
