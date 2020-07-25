@@ -39,9 +39,9 @@ docker manifest push wise2c/python-openresty:1.17.8
 docker pull wise2c/python-openresty:1.17.8
 docker pull wise2c/python-openresty:1.17.8-amd64
 docker pull wise2c/python-openresty:1.17.8-arm64
-docker tag wise2c/python-openresty:1.17.8 fragaria/python-openresty:latest
-docker tag wise2c/python-openresty:1.17.8-amd64 fragaria/python-openresty:latest-amd64
-docker tag wise2c/python-openresty:1.17.8-arm64 fragaria/python-openresty:latest-arm64
+docker tag wise2c/python-openresty:1.17.8 wise2c/python-openresty:latest
+docker tag wise2c/python-openresty:1.17.8-amd64 wise2c/python-openresty:latest-amd64
+docker tag wise2c/python-openresty:1.17.8-arm64 wise2c/python-openresty:latest-arm64
 docker push wise2c/python-openresty:latest
 docker push wise2c/python-openresty:latest-arm64
 docker push wise2c/python-openresty:latest-amd64
