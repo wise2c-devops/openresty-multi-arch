@@ -3,6 +3,6 @@ rch:
   - arm64
 services:
   - docker
-script: docker run --name=openresty --rm wise2c/python-openresty openresty -v
+script: docker run --name=openresty --rm wise2c/python-openresty openresty -V
 
 #assuming docker image wise2c/python-openresty is amd64 and arm64v8 ready
